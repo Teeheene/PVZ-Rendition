@@ -1,3 +1,5 @@
+package model
+
 public class Zombie
 {
 	private String name;

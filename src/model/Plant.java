@@ -1,3 +1,5 @@
+package model;
+
 public class Plant
 {
 	private String name; 

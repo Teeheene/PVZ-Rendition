@@ -1,3 +1,5 @@
+package model;
+
 public class Peashooter extends Plant
 {
 	public Peashooter(Position pos)
