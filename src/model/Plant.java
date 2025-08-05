@@ -5,12 +5,12 @@ public class Plant
 	private String name; 
 	
 	//stats
-	private int hp;
-	private int atk;
-	private int sunCost;
+	protected int hp;
+	protected int atk;
+	protected int sunCost;
 	
 	//board pos
-	private Position pos;
+	protected Position pos;
 	
 	public Plant(String name, int hp, int atk, int sunCost, Position pos)
 	{
@@ -26,7 +26,7 @@ public class Plant
 	public void setHp(int hp) { this.hp = hp; }
 	public void setAtk(int atk) { this.atk = atk; }
 	public void setPrice(int sunCost) { this.sunCost = sunCost; }
-	public void setPos(Position pos) { this.pos = pos}
+	public void setPos(Position pos) { this.pos = pos; }
 	
 	//getters
 	public String getName() { return name; }
