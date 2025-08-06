@@ -2,11 +2,11 @@
 A personal project where I try to recreate Plants vs Zombies. This project is written in Java using the Model-View-Controller (MVC) pattern. -- no external game libraries were used. 
 
 ## Project Structure
-src/
-├── app/      # Main.java resides
-├── model/    # Core game logic (Plants, Zombies, Board, etc.)
-├── view/     # Display and rendering logic
-run.bat       # Windows batch script for compiling and running
+src/</br>
+├── app/      # Main.java resides</br>
+├── model/    # Core game logic (Plants, Zombies, Board, etc.)</br>
+├── view/     # Display and rendering logic</br>
+run.bat       # Windows batch script for compiling and running</br>
 
 ## Implemented Features
 - Base Plant and Zombie classes
@@ -22,8 +22,9 @@ run.bat       # Windows batch script for compiling and running
 ## How to Run
 
 ### Widnows
+Simple double click the following file
 ```bash
-double click run.bat
+run.bat
 ```
 OR compile manually from the folder root
 ```bash
