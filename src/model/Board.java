@@ -24,9 +24,24 @@ public class Board
 		{
 			for(int j = 0; j < x; j++)
 			{
-				board[i][j] = new Tile(new Position(i,j), null);
+				board[j][i] = new Tile(new Position(i,j), null);
 			}
 		}
+	}
+	
+	public int getWidth() { return width; }
+	public int getHeight() { return height; }
+	public Position getPos(int x, int y) { return board[x][y].getPos(); }
+	public Entity getEntity(int x, int y) { return board[x][y].getEntity(); }
+	
+	public void setEntity(int x, int y, Entity entity) 
+	{ 
+		board[x][y].setEntity(entity);
+	}
+	
+	public void update()
+	{
+		
 	}
 	
 	public void printDebug()

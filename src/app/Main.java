@@ -1,14 +1,19 @@
 package app;
 
 import model.*;
+import view.*;
 
 public class Main
 {
 	public static void main(String[] args)
 	{
-		MainController controller = new MainController();
+		Board board = new Board(5,5);
+		View view = new CliView();
 		
-		Board test = new Board(5,5);
-		test.printDebug();
+		MainController controller = new MainController(board, view);
+		
+		board.printDebug();
+		
+		controller.start();
 	}
 }

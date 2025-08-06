@@ -17,6 +17,11 @@ public class Position
 	public int getX() { return x; }
 	public int getY() { return y; }
 	
+	public void moveLeft(int x) { this.x -= x; }
+	public void moveRight(int x) { this.x += x; }
+	public void moveUp(int y) { this.y -= y; }
+	public void moveDown(int y) { this.y += y; }
+	
 	//debugg
 	public void printDebug() 
 	{
