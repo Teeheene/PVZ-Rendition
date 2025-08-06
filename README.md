@@ -1,8 +1,7 @@
 # PVZ-Rendition [WIP]
 A personal project where I try to recreate Plants vs Zombies. This project is written in Java using the Model-View-Controller (MVC) pattern. -- no external game libraries were used. 
 
-<h3>📁 Project Structure</h3>
-
+## Project Structure
 <ul>
   <li><code>src/</code>
     <ul>
