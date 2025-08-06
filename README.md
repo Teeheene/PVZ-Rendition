@@ -27,7 +27,7 @@ A personal project where I try to recreate Plants vs Zombies. This project is wr
 ## How to Run
 
 ### Widnows
-Simple double click the following file
+Simply double click the following file
 ```bash
 run.bat
 ```
