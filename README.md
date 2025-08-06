@@ -1,12 +1,18 @@
 # PVZ-Rendition [WIP]
 A personal project where I try to recreate Plants vs Zombies. This project is written in Java using the Model-View-Controller (MVC) pattern. -- no external game libraries were used. 
 
-## Project Structure
-src/</br>
-├── app/      # Main.java resides</br>
-├── model/    # Core game logic (Plants, Zombies, Board, etc.)</br>
-├── view/     # Display and rendering logic</br>
-run.bat       # Windows batch script for compiling and running</br>
+<h3>📁 Project Structure</h3>
+
+<ul>
+  <li><code>src/</code>
+    <ul>
+      <li><code>app/</code> – Entry point and controller logic (<code>Main.java</code>)</li>
+      <li><code>model/</code> – Core game logic (Plants, Zombies, Board, etc.)</li>
+      <li><code>view/</code> – Display and rendering logic</li>
+    </ul>
+  </li>
+  <li><code>run.bat</code> – Batch script for compiling and running (Windows)</li>
+</ul>
 
 ## Implemented Features
 - Base Plant and Zombie classes
