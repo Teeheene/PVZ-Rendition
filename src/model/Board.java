@@ -29,6 +29,10 @@ public class Board
 		}
 	}
 	
+	public int getHeight() { return height; }
+	public int getWidth() { return width; }
+	public Entity getEntity(int row, int col) { return board[row][col].getEntity(); }
+
 	public void printDebug()
 	{
 		for(int y = 0; y < height; y++)
